@@ -17,7 +17,30 @@
         <div class="container">
             <ul>
                 <li><a href=""><img style="width: 150px;" src="image/logo.JPG" alt=""></a></li>
-                <li><a href="">Hà Nội<i class="fa-solid fa-sort-down"></i></a></li>
+                <li id="address-form"><a href="#">Hà Nội<i class="fa-solid fa-sort-down"></i></a></li>
+                <div class="address-form">
+                    <div class="address-form-content">
+                        <h2>Chọn địa chỉ nhận hàng <span id="adress-close">X Đóng</span></h2>
+                        <form action="">
+                            <p>Quý khách vui lòng cho biết Địa Chỉ Nhận Hàng để biết chính xác thời gian giao hàng</p>
+                            <select name="" id="">
+                                <option value="#">--Chọn địa điểm</option>
+                                <option value="#">Hà Nội</option>
+                            </select>
+                            <select name="" id="">
+                                <option value="#">--Chọn Quận/Huyện</option>
+                                <option value="#">Đà nẵng</option>
+                            </select>
+                            <select name="" id="">
+                                <option value="#">--Chọn Phường</option>
+                                <option value="#">Hồ Chí Minh</option>
+                            </select>
+                            <input type="text" placeholder="Số nhà,Tên đường">
+                            <button>Xác nhận</button>
+                        </form>
+                    </div>
+                </div>
+
                 <li><input type="text" placeholder="Bạn tìm gì..."><i class="fa-solid fa-magnifying-glass"></i></li>
                 <li><a href=""><button><i class="fa-solid fa-cart-shopping"></i>Giỏ hàng</button></a></li>
                 <li><a href="">Lịch sử<br>đơn hàng</a></li>
@@ -46,5 +69,6 @@
             </div>
         </div>
     </section>
+    <script src="script.js"></script>
 </body>
 </html>
